@@ -10,10 +10,10 @@ int main() {
 	printf("insert your number : ");
 	scanf("%d", &N);
 
-
+	printf("binary form of number - ");
 	len = bin_len(N);
 
 
-	printf("%d", len);
+	printf("\nlength of longest row of ones - %d", len);
 
 }
